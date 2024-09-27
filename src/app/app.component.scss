@@ -1,0 +1,15 @@
+.app-card-pokemon {
+  height: 350px;
+  outline: 1px transparent solid;
+
+  transition: outline 200ms ease-in-out;
+
+  &:hover {
+    outline: 1px #adabd8 solid;
+  }
+}
+
+.app-img-pokemon {
+  max-width: 200px;
+  max-height: 200px;
+}
